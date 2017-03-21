@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  DevVideoPlayer
 //
-//  Created by Marek Mako on 20/03/2017.
+//  Created by Marek Mako on 21/03/2017.
 //  Copyright © 2017 Marek Mako. All rights reserved.
 //
 

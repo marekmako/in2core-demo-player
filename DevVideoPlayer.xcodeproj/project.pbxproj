@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2057A6A61E814B76000CB305 /* InOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2057A6A51E814B76000CB305 /* InOut.swift */; };
 		20C789C21E7FC70800FBA384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C789C11E7FC70800FBA384 /* AppDelegate.swift */; };
-		20C789C41E7FC70800FBA384 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C789C31E7FC70800FBA384 /* ViewController.swift */; };
 		20C789C71E7FC70800FBA384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C789C51E7FC70800FBA384 /* Main.storyboard */; };
 		20C789C91E7FC70800FBA384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C789C81E7FC70800FBA384 /* Assets.xcassets */; };
 		20C789CC1E7FC70800FBA384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C789CA1E7FC70800FBA384 /* LaunchScreen.storyboard */; };
+		20C789D41E7FCE1B00FBA384 /* VideoSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C789D31E7FCE1B00FBA384 /* VideoSlider.swift */; };
+		20C789D81E7FD51B00FBA384 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C789D71E7FD51B00FBA384 /* VideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2057A6A51E814B76000CB305 /* InOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InOut.swift; sourceTree = "<group>"; };
 		20C789BE1E7FC70800FBA384 /* DevVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C789C11E7FC70800FBA384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20C789C31E7FC70800FBA384 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20C789C61E7FC70800FBA384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20C789C81E7FC70800FBA384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20C789CB1E7FC70800FBA384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20C789CD1E7FC70800FBA384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C789D31E7FCE1B00FBA384 /* VideoSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSlider.swift; sourceTree = "<group>"; };
+		20C789D71E7FD51B00FBA384 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		20C789C01E7FC70800FBA384 /* DevVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				20C789D71E7FD51B00FBA384 /* VideoViewController.swift */,
+				20C789D31E7FCE1B00FBA384 /* VideoSlider.swift */,
+				2057A6A51E814B76000CB305 /* InOut.swift */,
 				20C789C11E7FC70800FBA384 /* AppDelegate.swift */,
-				20C789C31E7FC70800FBA384 /* ViewController.swift */,
 				20C789C51E7FC70800FBA384 /* Main.storyboard */,
 				20C789C81E7FC70800FBA384 /* Assets.xcassets */,
 				20C789CA1E7FC70800FBA384 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C789C41E7FC70800FBA384 /* ViewController.swift in Sources */,
 				20C789C21E7FC70800FBA384 /* AppDelegate.swift in Sources */,
+				2057A6A61E814B76000CB305 /* InOut.swift in Sources */,
+				20C789D41E7FCE1B00FBA384 /* VideoSlider.swift in Sources */,
+				20C789D81E7FD51B00FBA384 /* VideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +308,7 @@
 				20C789D21E7FC70800FBA384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
